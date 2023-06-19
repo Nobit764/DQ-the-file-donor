@@ -1,12 +1,15 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍</b>"""
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, ɪ ᴀᴍ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ
+
+ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋsʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
+ɪᴛꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋꜱʜᴏʀᴛᴇɴᴇʀ</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/sophia987>sophia</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Hariomsingh31u>ʜᴀʀɪᴏᴍ</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
@@ -17,7 +20,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 - ꜱᴏᴜʀᴄᴇ - <a href="https://github.com/Joelkb/DQ-The-File-Donor">ʜᴇʀᴇ</a>
 Dᴇᴠᴇʟᴏᴘᴇʀ:
-- <a href="https://t.me/sophia987">ʜᴀʀɪᴏᴍ ꜱɪɴɢʜ</a></b>"""
+- <a href="https://t.me/Hariomsingh31u">ʜᴀʀɪᴏᴍ ꜱɪɴɢʜ</a></b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -148,9 +151,9 @@ Nᴀᴍᴇ - {}"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : sophia
-• ᴜꜱᴇʀɴᴀᴍᴇ : @sophia987
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/sophia987>ʜᴀʀɪ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : ʜᴀʀɪᴏᴍ
+• ᴜꜱᴇʀɴᴀᴍᴇ : @Hariomsingh31u
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Hariomsingh31u>ʜᴀʀɪ</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
